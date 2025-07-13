@@ -1,0 +1,30 @@
+{
+  "name": "login_register",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "helmet": "^8.1.0",
+    "joi": "^17.13.3",
+    "json": "^11.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwt": "^0.2.0",
+    "mysql2": "^3.14.2",
+    "nodemon": "^3.1.10",
+    "sequelize": "^6.37.7",
+    "token": "^0.1.0",
+    "web": "^0.0.2"
+  }
+}
